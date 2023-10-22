@@ -42,14 +42,10 @@
     <!-- 
     - preload images
   -->
-    <link
-      rel="preload"
-      as="image"
-      href="./assets/images/pexels-tofroscom-257853.jpg"
-    />
-    <link rel="preload" as="image" href="./assets/images/ulana.png" />
-    <link rel="preload" as="image" href="./assets/images/photo-2.jpg" />
-    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-photo1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-photo2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-photo3.jpg" />
   </head>
   <body>
     <!--
@@ -143,38 +139,6 @@
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </div>
-
-          <!-- <ul class="social-list">
-            <li>
-              <a href="https://www.instagram.com/consultinguf?igshid=Mzc1MmZhNjY%3D" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-dribbble"></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter "></ion-icon>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-          </ul> -->
         </nav>
 
         <a href="#about-label" class="btn btn-outline">Consultation gratuite</a>
@@ -196,9 +160,7 @@
         <section
           class="section hero has-bg-image"
           aria-label="home"
-          style="
-            background-image: url('./assets/images/pexels-tofroscom-257853.jpg');
-          "
+          style="background-image: url('./assets/images/hero-bg.jpg')"
         >
           <div class="container">
             <div class="hero-content">
@@ -213,8 +175,6 @@
               </p>
 
               <div class="btn-wrapper">
-                <!-- <a href="#" class="btn btn-primary">Explore Now</a> -->
-
                 <a href="#footer-label" class="btn btn-outline"
                   >Contactez moi</a
                 >
@@ -230,7 +190,7 @@
                       style="--width: 575; --height: 550"
                     >
                       <img
-                        src="./assets/images/ulana.png"
+                        src="./assets/images/hero-photo1.jpg"
                         width="575"
                         height="550"
                         alt=""
@@ -246,17 +206,13 @@
                         style="--width: 575; --height: 550"
                       >
                         <img
-                          src="./assets/images/photo2.jpg"
+                          src="./assets/images/hero-photo2.jpg"
                           width="575"
                           height="550"
                           alt="hero banner"
                           class="img-cover"
                         />
                       </figure>
-
-                      <!-- <button class="play-btn" aria-label="play adex intro">
-                        <ion-icon name="play" aria-hidden="true"></ion-icon>
-                      </button> -->
                     </div>
                   </li>
 
@@ -266,7 +222,7 @@
                       style="--width: 575; --height: 550"
                     >
                       <img
-                        src="./assets/images/photo1.png"
+                        src="./assets/images/hero-photo3.jpg"
                         width="575"
                         height="550"
                         alt=""
@@ -299,13 +255,11 @@
         <!--
           #SERVICE
         -->
-        <section
-          class="section service"
-          id="service-label"
-          aria-labelledby="service-label"
-        >
+        <section class="section service" aria-labelledby="service-label">
           <div class="container">
-            <p class="section-subtitle">QU'EST-CE QUE NOUS FAISONS?</p>
+            <p class="section-subtitle" id="service-label">
+              QU'EST-CE QUE NOUS FAISONS?
+            </p>
             <h2 class="h2 section-title">
               Les services que nous proposons sont conçus spécifiquement pour
               répondre à vos besoins.
@@ -324,13 +278,6 @@
                     Aide administrative et comptable aux entreprises et
                     particulières
                   </p>
-                  <!-- <a href="#" class="btn-text">
-                    <span class="span">Learn More</span>
-                    <ion-icon
-                      name="arrow-forward-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </a> -->
                 </div>
               </li>
               <li>
@@ -346,13 +293,6 @@
                     Nulla vitae elit libero, a pharetra augue. Donec id elit non
                     mi porta gravida at eget metus cras justo.
                   </p>
-                  <!-- <a href="#" class="btn-text">
-                    <span class="span">Learn More</span>
-                    <ion-icon
-                      name="arrow-forward-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </a> -->
                 </div>
               </li>
               <li>
@@ -365,13 +305,6 @@
                     Nulla vitae elit libero, a pharetra augue. Donec id elit non
                     mi porta gravida at eget metus cras justo.
                   </p>
-                  <!-- <a href="#" class="btn-text">
-                    <span class="span">Learn More</span>
-                    <ion-icon
-                      name="arrow-forward-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </a> -->
                 </div>
               </li>
               <li>
@@ -389,13 +322,6 @@
                     Nulla vitae elit libero, a pharetra augue. Donec id elit non
                     mi porta gravida at eget metus cras justo.
                   </p>
-                  <!-- <a href="#" class="btn-text">
-                    <span class="span">Learn More</span>
-                    <ion-icon
-                      name="arrow-forward-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </a> -->
                 </div>
               </li>
             </ul>
@@ -407,12 +333,9 @@
         -->
 
         <section
-          id="about-label"
           class="section about"
           aria-labelledby="about-label"
-          style="
-            background-image: url('./assets/images/pexels-tofroscom-257853.jpg');
-          "
+          style="background-image: url('./assets/images/hero-bg.jpg')"
         >
           <div class="container">
             <figure class="about-banner">
@@ -426,7 +349,9 @@
               />
             </figure>
             <div class="about-content">
-              <p class="section-subtitle">Qu'est-ce que je propose?</p>
+              <p class="section-subtitle" id="about-label">
+                Qu'est-ce que je propose?
+              </p>
               <h2 class="h2 section-title">
                 Premier rdv en présentiel ou en distance offert
               </h2>
@@ -569,217 +494,6 @@
             </div>
           </div>
         </section>
-
-        <!--
-          #STATS
-        -->
-
-        <!-- <section class="stats" aria-label="our stats">
-          <div class="container">
-            <ul
-              class="stats-card has-bg-image"
-              style="background-image: url('./assets/images/stats-bg.jpg')"
-            >
-              <li>
-                <p class="card-text">
-                  <span class="h1">7518</span>
-                  <span class="span">Completed Projects</span>
-                </p>
-              </li>
-              <li>
-                <p class="card-text">
-                  <span class="h1">3472</span>
-                  <span class="span">Happy Customers</span>
-                </p>
-              </li>
-              <li>
-                <p class="card-text">
-                  <span class="h1">2184</span>
-                  <span class="span">Expert Employees</span>
-                </p>
-              </li>
-              <li>
-                <p class="card-text">
-                  <span class="h1">4523</span>
-                  <span class="span">Awards Won</span>
-                </p>
-              </li>
-            </ul>
-          </div>
-        </section> -->
-
-        <!--
-          #PROJECTS
-        -->
-
-        <!-- <section class="section project" aria-labelledby="project-label">
-          <div class="container">
-            <p class="section-subtitle" id="project-label">Case Studies</p>
-            <h2 class="h2 section-title">
-              Check out some of our awesome projects with creative ideas and
-              great design.
-            </h2>
-            <ul class="grid-list">
-              <li>
-                <div class="project-card">
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 560; --height: 350"
-                  >
-                    <img
-                      src="./assets/images/blog-1.jpg"
-                      width="560"
-                      height="350"
-                      loading="lazy"
-                      alt="ligula tristique quis risus"
-                      class="img-cover"
-                    />
-                  </figure>
-                  <div class="card-content">
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Ligula tristique quis risus</a
-                      >
-                    </h3>
-                    <p class="card-text">
-                      Mauris convallis non ligula non interdum. Gravida
-                      vulputate convallis tempus vestibulum cras imperdiet nun
-                      eu dolor.
-                    </p>
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="calendar-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                        <time class="meta-text" datetime="2022-04-14"
-                          >14 Apr 2022</time
-                        >
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="document-text-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                        <span class="meta-text">Coding</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="project-card">
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 560; --height: 350"
-                  >
-                    <img
-                      src="./assets/images/blog-2.jpg"
-                      width="560"
-                      height="350"
-                      loading="lazy"
-                      alt="Nullam id dolor elit id nibh"
-                      class="img-cover"
-                    />
-                  </figure>
-                  <div class="card-content">
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Nullam id dolor elit id nibh</a
-                      >
-                    </h3>
-                    <p class="card-text">
-                      Mauris convallis non ligula non interdum. Gravida
-                      vulputate convallis tempus vestibulum cras imperdiet nun
-                      eu dolor.
-                    </p>
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="calendar-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                        <time class="meta-text" datetime="2022-03-29"
-                          >29 Mar 2022</time
-                        >
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="document-text-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                        <span class="meta-text">Workspace</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="project-card">
-                  <figure
-                    class="card-banner img-holder"
-                    style="--width: 560; --height: 350"
-                  >
-                    <img
-                      src="./assets/images/blog-3.jpg"
-                      width="560"
-                      height="350"
-                      loading="lazy"
-                      alt="Ultricies fusce porta elit"
-                      class="img-cover"
-                    />
-                  </figure>
-                  <div class="card-content">
-                    <h3 class="h3">
-                      <a href="#" class="card-title"
-                        >Ultricies fusce porta elit</a
-                      >
-                    </h3>
-                    <p class="card-text">
-                      Mauris convallis non ligula non interdum. Gravida
-                      vulputate convallis tempus vestibulum cras imperdiet nun
-                      eu dolor.
-                    </p>
-                    <ul class="card-meta-list">
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="calendar-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                        <time class="meta-text" datetime="2022-02-26"
-                          >26 Feb 2022</time
-                        >
-                      </li>
-
-                      <li class="card-meta-item">
-                        <ion-icon
-                          name="document-text-outline"
-                          aria-hidden="true"
-                        ></ion-icon>
-                        <span class="meta-text">Meeting</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section> -->
-
-        <!--
-          #CTA
-        -->
-
-        <!-- <section class="cta" aria-label="call to action">
-          <div class="container">
-            <h2 class="h2 section-title">
-              Join our community by using our services and grow your business.
-            </h2>
-            <a href="#" class="btn btn-primary">Try it For Free</a>
-          </div>
-        </section> -->
       </article>
     </main>
 
@@ -790,9 +504,7 @@
     <footer
       class="footer"
       id="footer-label"
-      style="
-        background-image: url('./assets/images/pexels-tofroscom-257853.jpg');
-      "
+      style="background-image: url('./assets/images/hero-bg.jpg')"
     >
       <div class="container">
         <div class="footer-brand">
@@ -804,44 +516,8 @@
               alt="Adex home"
             />
           </a>
-          <!-- <p class="footer-text">&copy; 2023</p> -->
-          <!-- <ul class="social-list">
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-instagram"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-dribbble"></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-facebook "></ion-icon>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-            </li>
-          </ul> -->
         </div>
         <ul class="footer-list">
-          <!-- <li>
-            <p class="h4 footer-list-title">Get in Touch</p>
-          </li>
-          <li>
-            <address class="footer-text">
-              Moonshine St. 14/05 Light City, London, United Kingdom
-            </address>
-          </li> -->
           <li>
             <a
               href="mailto:ufedan@outlook.fr"
@@ -871,44 +547,6 @@
             </a>
           </li>
         </ul>
-
-        <!-- <ul class="footer-list">
-          <li>
-            <p class="h4 footer-list-title">Learn More</p>
-          </li>
-          <li>
-            <a href="#" class="footer-link">About Us</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">Our Story</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">Projects</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">Terms of Use</a>
-          </li>
-          <li>
-            <a href="#" class="footer-link">Privacy Policy</a>
-          </li>
-        </ul> -->
-        <!-- <div class="footer-list">
-          <p class="h4 footer-list-title">Our Newsletter</p>
-          <p class="footer-text">
-            Subscribe to our newsletter to get our news & deals delivered to
-            you.
-          </p>
-          <form action="" class="input-wrapper">
-            <input
-              type="email"
-              name="email_address"
-              placeholder="Email Address"
-              required
-              class="input-field"
-            />
-            <button type="submit" class="submit-btn">Join</button>
-          </form>
-        </div> -->
       </div>
       <div class="footer-text-box">
         <p class="footer-text">
