@@ -548,6 +548,7 @@ body.nav-active {
 
 .service-card {
   padding: 40px;
+  background-color: var(--white);
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
 }
@@ -787,7 +788,7 @@ body.nav-active {
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--charcoal);
+  background-color: var(--raisin-black);
   padding-block: 30px 10px;
   color: var(--light-gray);
 }
@@ -819,6 +820,10 @@ body.nav-active {
 
 .footer-list {
   padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer-list-title {
