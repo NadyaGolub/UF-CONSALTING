@@ -967,7 +967,7 @@ body.nav-active {
   }
 
   .service-card {
-    height: 330px;
+    height: 400px;
   }
 
   /**
@@ -1082,7 +1082,7 @@ body.nav-active {
   }
 
   .service-card {
-    height: 330px;
+    height: 400px;
   }
 
   /**
@@ -1180,7 +1180,7 @@ body.nav-active {
   }
 
   .service-card {
-    height: 416px;
+    height: 630px;
   }
 
   /**
@@ -1212,6 +1212,10 @@ body.nav-active {
 
   .container {
     max-width: 1320px;
+  }
+
+  .service-card {
+    height: 500px;
   }
 
   /**
